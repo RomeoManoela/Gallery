@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div class="sectionContainer">
+      <section class="nature sect">
+        <img src="images/nature-1.jpg" alt="" id="1" />
+        <img src="images/nature-2.jpg" alt="" id="2" />
+        <img src="images/nature-3.jpg" alt="" id="3" />
+      </section>
+      <section class="city sect">
+        <img src="images/city-1.jpg" alt="" id="1" />
+        <img src="images/city-2.jpg" alt="" id="2" />
+        <img src="images/city-3.jpg" alt="" id="3" />
+        <img src="images/city-4.jpg" alt="" id="4" />
+        <img src="images/city-5.jpg" alt="" id="5" />
+      </section>
+    </div>
+
+    <div class="modal hidden">
+      <button class="exit">&times;</button>
+      <div class="modalActive">
+        <button class="left">&leftarrow;</button>
+        <img src="" alt="" class="active" /><br />
+        <p></p>
+        <button class="right">&rightarrow;</button>
+      </div>
+      <div class="imgRestContainer">
+        <img src="" alt="" class="imgRest imgSelected" />
+        <!-- <img src="images/city-2.jpg" alt="" class="imgRest" />
+        <img src="images/city-3.jpg" alt="" class="imgRest" /> -->
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
